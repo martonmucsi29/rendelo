@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
         sql += ` WHERE ${szurok.join(' AND ')}`;
     }
 
-    sql += ` GROUP BY gazdak.nev`;
+    sql += ` GROUP BY gazdak.nev ORDER BY gazdak.nev`;
 
     try {   
         const [results] = await pool.query(sql, params);

@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martonmucsi29/rendelo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/martonmucsi29/rendelo/issues"
+  },
+  "homepage": "https://github.com/martonmucsi29/rendelo#readme",
   "dependencies": {
     "dotenv": "^18.0.10",
     "express": "^5.3.0",
